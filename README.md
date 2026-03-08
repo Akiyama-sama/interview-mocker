@@ -31,7 +31,7 @@ interview-mocker/
 mkdir -p ~/.claude/skills
 
 # 克隆或复制 skill 到全局目录
-git clone https://github.com/your-username/interview-mocker.git ~/.claude/skills/interview-mocker
+git clone https://github.com/Akiyama-sama/interview-mocker.git ~/.claude/skills/interview-mocker
 ```
 
 #### 项目级安装
@@ -41,7 +41,7 @@ git clone https://github.com/your-username/interview-mocker.git ~/.claude/skills
 mkdir -p .claude/skills
 
 # 克隆或复制 skill
-git clone https://github.com/your-username/interview-mocker.git .claude/skills/interview-mocker
+git clone https://github.com/Akiyama-sama/interview-mocker.git .claude/skills/interview-mocker
 ```
 
 #### 验证安装
@@ -76,13 +76,13 @@ npx openskills --help
 
 ```bash
 # 从 GitHub 仓库安装
-npx openskills install your-username/interview-mocker
+npx openskills install Akiyama-sama/interview-mocker
 
 # 指定目标代理（claude、cursor 等）
-npx openskills install your-username/interview-mocker -t claude
+npx openskills install Akiyama-sama/interview-mocker -t claude
 
 # 全局安装
-npx openskills install your-username/interview-mocker -g
+npx openskills install Akiyama-sama/interview-mocker -g
 
 # 安装后同步
 npx openskills sync
@@ -98,10 +98,10 @@ npx openskills sync
 
 ```bash
 # 从 GitHub 安装
-npx skills add your-username/interview-mocker
+npx skills add Akiyama-sama/interview-mocker
 
 # 或指定仓库
-npx skills add https://github.com/your-username/interview-mocker
+npx skills add https://github.com/Akiyama-sama/interview-mocker
 ```
 
 #### 常用命令
@@ -180,7 +180,7 @@ npx add-skill ./interview-mocker
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/interview-mocker.git
+git clone https://github.com/Akiyama-sama/interview-mocker.git
 
 # 复制到 Claude Code skills 目录
 cp -r interview-mocker ~/.claude/skills/
